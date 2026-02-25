@@ -1,10 +1,10 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { NameInput } from "@/components/NameInput"
 
-export default function Home() {
+function HomeContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [isReady, setIsReady] = useState(false)
@@ -34,4 +34,12 @@ export default function Home() {
   }
 
   return <NameInput />
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <HomeContent />
+    </Suspense>
+  )
 }
