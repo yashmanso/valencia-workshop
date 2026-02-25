@@ -7,8 +7,8 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Workshop in Valencia",
-  description: "Interactive workshop platform",
+  title: "workshop in valencia",
+  description: "interactive workshop platform",
 };
 
 export default function RootLayout({

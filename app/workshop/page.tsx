@@ -9,11 +9,11 @@ export default function WorkshopPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Workshop in Valencia
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+            workshop in valencia
           </h1>
-          <p className="text-gray-600">
-            Select a workshop to begin
+          <p className="text-gray-600 dark:text-gray-400">
+            select a workshop to begin
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -30,7 +30,7 @@ export default function WorkshopPage() {
             href="/?change=true"
             className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 underline"
           >
-            Change name
+            change name
           </Link>
         </div>
       </div>

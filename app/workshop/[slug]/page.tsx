@@ -28,7 +28,7 @@ export default function WorkshopDetailPage({
       <div className="max-w-4xl mx-auto">
         <div className="mb-6 flex items-center justify-between">
           <Link href="/workshop">
-            <Button variant="outline">← Back to Workshops</Button>
+            <Button variant="outline">← back to workshops</Button>
           </Link>
         </div>
         <Card>

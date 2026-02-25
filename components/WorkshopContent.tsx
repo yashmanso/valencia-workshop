@@ -203,8 +203,8 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
       console.error("Error saving response:", error)
       const errorMessage = error instanceof Error ? error.message : "Failed to save your response. Please try again."
       toast({
-        title: "Error",
-        description: errorMessage,
+        title: "error",
+        description: errorMessage.toLowerCase(),
         variant: "destructive",
       })
       setIsSubmitting(false)
@@ -244,7 +244,7 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
         </div>
         <div className="flex justify-end pt-4 border-t">
           <Button type="submit" disabled={isSubmitting}>
-            {isSubmitting ? "Saving..." : "Save Response"}
+            {isSubmitting ? "saving..." : "save response"}
           </Button>
         </div>
       </form>
@@ -270,13 +270,13 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
                   />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-foreground mb-2">Success!</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-2">success!</h2>
               <p className="text-muted-foreground">
-                Your response has been saved to GitHub.
+                your response has been saved to github.
               </p>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
-              Redirecting to home in 5 seconds...
+              redirecting to home in 5 seconds...
             </p>
           </div>
         </div>

@@ -18,7 +18,7 @@ export function WorkshopButton({ title, slug }: WorkshopButtonProps) {
         </CardHeader>
         <CardContent>
           <Button variant="outline" className="w-full">
-            Start Workshop
+            start
           </Button>
         </CardContent>
       </Card>

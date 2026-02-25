@@ -23,19 +23,19 @@ export function NameInput() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-4">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle className="text-2xl">Welcome to the Workshop</CardTitle>
+          <CardTitle className="text-2xl">welcome to the workshop</CardTitle>
           <CardDescription>
-            Please enter your name to begin
+            please enter your name to begin
           </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="name">Your Name</Label>
+              <Label htmlFor="name">your name</Label>
               <Input
                 id="name"
                 type="text"
-                placeholder="Enter your name"
+                placeholder="enter your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -43,7 +43,7 @@ export function NameInput() {
               />
             </div>
             <Button type="submit" className="w-full">
-              Continue
+              continue
             </Button>
           </form>
         </CardContent>
