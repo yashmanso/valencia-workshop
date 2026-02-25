@@ -26,35 +26,71 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Format the response content
+    // Format the response content for this user
     const timestamp = new Date().toISOString()
-    const content = `Workshop Response
-================
+    const userResponse = `
+================================================================================
+RESPONSE FROM: ${userName}
+DATE: ${timestamp}
+WORKSHOP: ${workshopTitle}
+================================================================================
 
-User Name: ${userName}
-Workshop: ${workshopTitle}
-Date: ${timestamp}
-
-Responses:
 ${Object.entries(responses)
-  .map(([key, value]) => `\n${key}:\n${value}\n`)
+  .map(([key, value]) => {
+    if (value && value.trim()) {
+      return `${key}:\n${value}\n`;
+    }
+    return `${key}:\n(No response provided)\n`;
+  })
   .join("\n---\n")}
+
 `
 
-    // Create folder for this response
-    const sanitizedUserName = userName.replace(/[^a-zA-Z0-9]/g, "_")
-    const timestampStr = new Date().toISOString().replace(/[:.]/g, "-")
-    const responseFolderName = `${sanitizedUserName}_${workshopSlug}_${timestampStr}`
-    const responseFolderPath = `responses/${responseFolderName}`
-    const fileName = `response.txt`
-    const filePath = `${responseFolderPath}/${fileName}`
-
-    // Convert content to base64 (GitHub API requires base64 encoding)
-    const contentBase64 = Buffer.from(content, "utf-8").toString("base64")
-
-    // Create file in GitHub repository
+    // Create file path - one file per workshop
+    const fileName = `${workshopSlug}.txt`
+    const filePath = `responses/${fileName}`
     const githubApiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`
-    
+
+    // Try to get existing file to append to it
+    let existingContent = ""
+    let existingSha = null
+
+    try {
+      const getResponse = await fetch(githubApiUrl, {
+        headers: {
+          "Authorization": `token ${githubToken}`,
+          "Accept": "application/vnd.github.v3+json",
+        },
+      })
+
+      if (getResponse.ok) {
+        const fileData = await getResponse.json()
+        existingContent = Buffer.from(fileData.content, "base64").toString("utf-8")
+        existingSha = fileData.sha
+      }
+    } catch (error) {
+      // File doesn't exist yet, that's okay - we'll create it
+      console.log("File doesn't exist yet, will create new file")
+    }
+
+    // Combine existing content with new response
+    const newContent = existingContent + userResponse
+    const contentBase64 = Buffer.from(newContent, "utf-8").toString("base64")
+
+    // Create or update file in GitHub repository
+    const requestBody: any = {
+      message: existingSha 
+        ? `Add response from ${userName} to ${workshopTitle}` 
+        : `Create ${workshopTitle} responses file with response from ${userName}`,
+      content: contentBase64,
+      branch: branch,
+    }
+
+    // Only include SHA if file exists (for updates)
+    if (existingSha) {
+      requestBody.sha = existingSha
+    }
+
     const response = await fetch(githubApiUrl, {
       method: "PUT",
       headers: {
@@ -62,11 +98,7 @@ ${Object.entries(responses)
         "Accept": "application/vnd.github.v3+json",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        message: `Add response from ${userName} for ${workshopTitle}`,
-        content: contentBase64,
-        branch: branch,
-      }),
+      body: JSON.stringify(requestBody),
     })
 
     if (!response.ok) {
@@ -84,7 +116,6 @@ ${Object.entries(responses)
     return NextResponse.json({
       success: true,
       filePath: result.content.path,
-      folderPath: responseFolderPath,
       fileName,
       commitSha: result.commit.sha,
     })
