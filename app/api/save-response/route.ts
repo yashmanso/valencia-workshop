@@ -72,8 +72,9 @@ ${Object.entries(responses)
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}))
       console.error("GitHub API error:", errorData)
+      const errorMessage = errorData.message || errorData.error?.message || "Failed to save response to GitHub"
       return NextResponse.json(
-        { error: "Failed to save response to GitHub", details: errorData },
+        { error: errorMessage, details: errorData },
         { status: response.status }
       )
     }

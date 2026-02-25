@@ -182,8 +182,12 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
       })
 
       if (!response.ok) {
-        throw new Error("Failed to save response")
+        const errorData = await response.json().catch(() => ({}))
+        console.error("API Error:", errorData)
+        throw new Error(errorData.error || "Failed to save response")
       }
+
+      const result = await response.json()
 
       toast({
         title: "Success!",
@@ -193,9 +197,11 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
       // Clear form after successful submission
       setFormData({})
     } catch (error) {
+      console.error("Error saving response:", error)
+      const errorMessage = error instanceof Error ? error.message : "Failed to save your response. Please try again."
       toast({
         title: "Error",
-        description: "Failed to save your response. Please try again.",
+        description: errorMessage,
         variant: "destructive",
       })
     } finally {
