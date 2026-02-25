@@ -27,8 +27,8 @@ export default function WorkshopPage() {
         </div>
         <div className="mt-8 text-center">
           <Link
-            href="/"
-            className="text-sm text-gray-600 hover:text-gray-900 underline"
+            href="/?change=true"
+            className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 underline"
           >
             Change name
           </Link>
