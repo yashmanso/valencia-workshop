@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useRouter } from "next/navigation"
 import { Workshop } from "@/lib/markdown"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
@@ -154,7 +155,9 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
   const [formData, setFormData] = useState<Record<string, string>>({})
   const [userName, setUserName] = useState<string>("")
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccess, setShowSuccess] = useState(false)
   const { toast } = useToast()
+  const router = useRouter()
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -189,13 +192,13 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
 
       const result = await response.json()
 
-      toast({
-        title: "Success!",
-        description: "Your response has been saved to GitHub.",
-      })
+      // Show success modal
+      setShowSuccess(true)
 
-      // Clear form after successful submission
-      setFormData({})
+      // Redirect to home after 5 seconds
+      setTimeout(() => {
+        router.push("/")
+      }, 5000)
     } catch (error) {
       console.error("Error saving response:", error)
       const errorMessage = error instanceof Error ? error.message : "Failed to save your response. Please try again."
@@ -204,7 +207,6 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
         description: errorMessage,
         variant: "destructive",
       })
-    } finally {
       setIsSubmitting(false)
     }
   }
@@ -213,37 +215,72 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
   const rawInputMatches = workshop.content.match(/\[INPUT:(\w+):([^\]]+)\]/g);
   
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
-      <div>
-        {renderWorkshopContent(workshop.htmlContent, formData, setFormData)}
-        {/* Always render input fields from raw content */}
-        {rawInputMatches && rawInputMatches.map((match, idx) => {
-          const inputMatch = match.match(/\[INPUT:(\w+):([^\]]+)\]/);
-          if (!inputMatch) return null;
-          const fieldName = inputMatch[2].trim();
-          const fieldId = `input-${fieldName.replace(/\s+/g, '-').toLowerCase()}-${idx}`;
-          
-          return (
-            <div key={fieldId} className="my-6">
-              <Textarea
-                id={fieldId}
-                name={fieldName}
-                value={formData[fieldName] || ""}
-                onChange={(e) =>
-                  setFormData({ ...formData, [fieldName]: e.target.value })
-                }
-                className="min-h-[150px] w-full"
-                placeholder=""
-              />
+    <>
+      <form onSubmit={handleSubmit} className={`space-y-6 ${showSuccess ? 'blur-sm pointer-events-none' : ''}`}>
+        <div>
+          {renderWorkshopContent(workshop.htmlContent, formData, setFormData)}
+          {/* Always render input fields from raw content */}
+          {rawInputMatches && rawInputMatches.map((match, idx) => {
+            const inputMatch = match.match(/\[INPUT:(\w+):([^\]]+)\]/);
+            if (!inputMatch) return null;
+            const fieldName = inputMatch[2].trim();
+            const fieldId = `input-${fieldName.replace(/\s+/g, '-').toLowerCase()}-${idx}`;
+            
+            return (
+              <div key={fieldId} className="my-6">
+                <Textarea
+                  id={fieldId}
+                  name={fieldName}
+                  value={formData[fieldName] || ""}
+                  onChange={(e) =>
+                    setFormData({ ...formData, [fieldName]: e.target.value })
+                  }
+                  className="min-h-[150px] w-full"
+                  placeholder=""
+                />
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex justify-end pt-4 border-t">
+          <Button type="submit" disabled={isSubmitting}>
+            {isSubmitting ? "Saving..." : "Save Response"}
+          </Button>
+        </div>
+      </form>
+
+      {/* Success Modal */}
+      {showSuccess && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+          <div className="relative z-10 bg-card border border-border rounded-lg shadow-lg p-8 max-w-md mx-4 text-center">
+            <div className="mb-4">
+              <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 dark:bg-green-900 mb-4">
+                <svg
+                  className="h-6 w-6 text-green-600 dark:text-green-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-foreground mb-2">Success!</h2>
+              <p className="text-muted-foreground">
+                Your response has been saved to GitHub.
+              </p>
             </div>
-          );
-        })}
-      </div>
-      <div className="flex justify-end pt-4 border-t">
-        <Button type="submit" disabled={isSubmitting}>
-          {isSubmitting ? "Saving..." : "Save Response"}
-        </Button>
-      </div>
-    </form>
+            <p className="text-sm text-muted-foreground mt-4">
+              Redirecting to home in 5 seconds...
+            </p>
+          </div>
+        </div>
+      )}
+    </>
   )
 }
