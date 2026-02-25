@@ -37,8 +37,9 @@ WORKSHOP: ${workshopTitle}
 
 ${Object.entries(responses)
   .map(([key, value]) => {
-    if (value && value.trim()) {
-      return `${key}:\n${value}\n`;
+    const responseValue = typeof value === 'string' ? value : String(value || '');
+    if (responseValue && responseValue.trim()) {
+      return `${key}:\n${responseValue}\n`;
     }
     return `${key}:\n(No response provided)\n`;
   })
