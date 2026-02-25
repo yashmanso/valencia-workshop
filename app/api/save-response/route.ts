@@ -41,11 +41,13 @@ ${Object.entries(responses)
   .join("\n---\n")}
 `
 
-    // Create file path
+    // Create folder for this response
     const sanitizedUserName = userName.replace(/[^a-zA-Z0-9]/g, "_")
     const timestampStr = new Date().toISOString().replace(/[:.]/g, "-")
-    const fileName = `${sanitizedUserName}_${workshopSlug}_${timestampStr}.txt`
-    const filePath = `responses/${workshopSlug}/${fileName}`
+    const responseFolderName = `${sanitizedUserName}_${workshopSlug}_${timestampStr}`
+    const responseFolderPath = `responses/${responseFolderName}`
+    const fileName = `response.txt`
+    const filePath = `${responseFolderPath}/${fileName}`
 
     // Convert content to base64 (GitHub API requires base64 encoding)
     const contentBase64 = Buffer.from(content, "utf-8").toString("base64")
@@ -81,6 +83,7 @@ ${Object.entries(responses)
     return NextResponse.json({
       success: true,
       filePath: result.content.path,
+      folderPath: responseFolderPath,
       fileName,
       commitSha: result.commit.sha,
     })
