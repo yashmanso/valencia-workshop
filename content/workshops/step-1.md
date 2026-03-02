@@ -4,10 +4,10 @@ slug: "step-1"
 tags: []
 ---
 
-consider one tool you regularly use in you work. can be in teaching, research,
+consider one tool you regularly use in you work. can be in teaching, research, facilitation, or practice. 
 
-facilitation, or practice. what does it do? when do you reach for it? what do you value
+what does it do? when do you reach for it? what do you value about it? 
 
-about it? a few people then will share
+a few people then will share
 
 [INPUT:textarea:Your Response]

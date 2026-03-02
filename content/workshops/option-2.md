@@ -6,14 +6,22 @@ tags: []
 
 (what should we provide users to be able to adapt the tools to their context)
 
-- take a tool/model/method that you are familiar with
+take a tool/model/method that you are familiar with
 
-- understand the designers’ design choices and intentions
+<br />
 
-- choose a different context than their intentions
+understand the designers’ design choices and intentions
 
-- try to make adjustments to make it useful for other context
+<br />
 
-- reflect on things needed to be done in the translations process
+choose a different context than their intentions
+
+<br />
+
+try to make adjustments to make it useful for other context
+
+<br />
+
+reflect on things needed to be done in the translations process
 
 [INPUT:textarea:Your Response]

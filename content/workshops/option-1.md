@@ -4,9 +4,7 @@ slug: "option-1"
 tags: []
 ---
 
-(how to match learning objectives of our educational interventions with tools to help
-
-solidify them)
+(how to match learning objectives of our educational interventions with tools to help solidify them)
 
 - take a course that you teach/or a course you have taken
 

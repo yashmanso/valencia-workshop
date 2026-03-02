@@ -43,7 +43,7 @@ function renderWorkshopContent(
         parts.push(
           <div
             key={`html-${inputIndex}`}
-            className="prose prose-lg max-w-none dark:prose-invert"
+            className="prose prose-lg max-w-none dark:prose-invert [&_p]:mb-6 [&_li]:mb-3"
             dangerouslySetInnerHTML={{ __html: htmlBefore }}
           />
         )
@@ -89,7 +89,7 @@ function renderWorkshopContent(
           parts.push(
             <div
               key={`html-comment-${inputIndex}`}
-              className="prose prose-lg max-w-none dark:prose-invert"
+              className="prose prose-lg max-w-none dark:prose-invert [&_p]:mb-6 [&_li]:mb-3"
               dangerouslySetInnerHTML={{ __html: htmlBefore }}
             />
           )
@@ -132,7 +132,7 @@ function renderWorkshopContent(
     parts.push(
       <div
         key="html-end"
-        className="prose prose-lg max-w-none dark:prose-invert"
+        className="prose prose-lg max-w-none dark:prose-invert [&_p]:mb-6 [&_li]:mb-3"
         dangerouslySetInnerHTML={{ __html: remainingContent }}
       />
     )
@@ -142,7 +142,7 @@ function renderWorkshopContent(
   if (parts.length === 0 && htmlContent.trim()) {
     return (
       <div
-        className="prose prose-lg max-w-none dark:prose-invert"
+        className="prose prose-lg max-w-none dark:prose-invert [&_p]:mb-6 [&_li]:mb-3"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
     )

@@ -9,11 +9,11 @@ const workshopsDir = path.join(__dirname, '..', 'content', 'workshops');
 const pdfToSlug = {
   'Step 0.pdf': 'step-0',
   'Step 1.pdf': 'step-1',
-  'Step 2.pdf': 'step-2',
+  'Step 2.1.pdf': 'step-2-1',
+  'Step 2.2.pdf': 'step-2-2',
   'Step 3.pdf': 'step-3',
   'Option 1.pdf': 'option-1',
   'Option 2.pdf': 'option-2',
-  'Option 3.pdf': 'option-3',
 };
 
 async function extractPDFContent(pdfPath, slug) {

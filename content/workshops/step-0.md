@@ -4,10 +4,10 @@ slug: "step-0"
 tags: []
 ---
 
-consider a situation where you find yourself in need of a tool in relation to your
+consider a situation where you find yourself in need of a tool in relation to your teaching, research, facilitation, or practice.  
 
-teaching, research, facilitation, or practice. what do you do? where do you go to?
+what do you do? where do you go to? whom do you talk to?  
 
-whom do you talk to? a few people then will share
+a few people then will share
 
 [INPUT:textarea:Your Response]
