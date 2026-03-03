@@ -14,5 +14,5 @@ pair with someone and discuss these
 
 - what would need to change in how tools are presented in the toolbox to make this kind of search easier?
 
-- share with the rest of the group 
+- reflect on what others shared
 [INPUT:textarea:Your Response]
