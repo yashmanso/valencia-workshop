@@ -1,5 +1,5 @@
 ---
-title: "what is required of a user when forking a tool/model/methods?"
+title: "what is required of a user when forking a tool/model/method?"
 slug: "option-2"
 tags: []
 ---
