@@ -1,23 +1,22 @@
 ---
-title: "step 2.2 - scenarios (30 min)"
+title: "step 2.2 - scenario 2 (30 min)"
 slug: "step-2-2"
 tags: []
 ---
 
 **the situation**
 
-students have learned about some concept, this is to say that they can define and explain it. but, they haven’t yet made the concept their own in practice.
+students have learned about some concept, this is to say that they can define and explain it. but, they haven’t yet made the concept their own in practice. take a concept of your choice
 
-- what is the student actually struggling with (e.g., perception, motivation, confidence, etc.)?
+where the struggle comes from (e.g., perception, motivation, confidence, etc.)?
 
-- which tool would you put in their hands and why this one at this moment?
+what type of tool(s) would you put in their hands and why this one?
 
-- how would you include the tool in your practice?
+how would you include the tool?
 
-- what would they be able to do at the end that they couldn’t before?
+what would they be able to do at the end that they couldn’t before?
 
-- would you adapt/modify something in the tool to make it fit better?
-
+would you adapt/modify something in the tool to make it fit better?
 
 **impact measurement**
 

@@ -12,6 +12,8 @@ tags: []
 
 - choose a different context than their intentions
 
+- identify the generic components of the tool 
+
 - try to make adjustments to make it useful for other contexts
 
 - reflect on steps needed in the translations process
