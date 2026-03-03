@@ -4,7 +4,6 @@ import { useState, FormEvent } from "react"
 import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export function NameInput() {
@@ -22,7 +21,7 @@ export function NameInput() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-4">
       <Card className="w-full max-w-md">
-        <CardHeader>
+        <CardHeader className="text-center">
           <CardTitle className="text-2xl">welcome to the workshop</CardTitle>
           <CardDescription>
             please enter your name to begin
@@ -31,7 +30,6 @@ export function NameInput() {
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="name">your name</Label>
               <Input
                 id="name"
                 type="text"
