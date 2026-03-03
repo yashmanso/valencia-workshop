@@ -23,9 +23,6 @@ export function NameInput() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl">welcome to the workshop</CardTitle>
-          <CardDescription>
-            please enter your name to begin
-          </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
