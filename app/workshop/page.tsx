@@ -1,5 +1,6 @@
 import { getAllWorkshops } from "@/lib/markdown"
 import { WorkshopButton } from "@/components/WorkshopButton"
+import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export default function WorkshopPage() {
@@ -57,12 +58,9 @@ export default function WorkshopPage() {
           </div>
         </section>
         <div className="mt-8 text-center">
-          <Link
-            href="/?change=true"
-            className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 underline"
-          >
-            change name
-          </Link>
+          <Button variant="outline" asChild>
+            <Link href="/?change=true">change name</Link>
+          </Button>
         </div>
       </div>
     </div>
