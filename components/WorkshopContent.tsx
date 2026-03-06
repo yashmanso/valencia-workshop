@@ -246,7 +246,6 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
 
   // Always check raw content for input placeholders and render them
   const rawInputMatches = workshop.content.match(/\[INPUT:(\w+):([^\]]+)\]/g);
-  const latestSubmission = submissions[0]
   
   return (
     <>
@@ -267,35 +266,38 @@ export function WorkshopContent({ workshop }: WorkshopContentProps) {
             </div>
           )}
 
-          {latestSubmission && (
+          {submissions.length > 0 && (
             <div className="mt-6 space-y-3">
-              <div className="rounded-lg border border-border bg-green-50/70 dark:bg-green-950/30 p-4">
-                <p className="text-sm font-medium text-foreground">
-                  submitted
-                </p>
-                <p className="text-xs text-muted-foreground mt-1">
-                  {new Date(latestSubmission.savedAt).toLocaleString()}
-                </p>
-              </div>
-
               <div className="rounded-lg border border-border bg-card p-4">
                 <p className="text-sm font-medium text-foreground mb-2">
-                  sent response
+                  submitted responses
                 </p>
-                <div className="space-y-3">
-                  {Object.entries(latestSubmission.responses)
-                    .filter(([, value]) => value?.trim())
-                    .map(([key, value]) => (
-                      <div key={key}>
-                        <p className="text-xs font-medium text-muted-foreground mb-1">
-                          {key}
-                        </p>
-                        <div className="whitespace-pre-wrap text-sm text-foreground">
-                          {value}
-                        </div>
+                <div className="space-y-4">
+                  {submissions.map((submission, index) => (
+                    <div
+                      key={`${submission.savedAt}-${index}`}
+                      className="rounded-md border border-border bg-background/40 p-3"
+                    >
+                      <p className="text-xs text-muted-foreground mb-2">
+                        submitted at {new Date(submission.savedAt).toLocaleString()}
+                      </p>
+                      <div className="space-y-3">
+                        {Object.entries(submission.responses)
+                          .filter(([, value]) => value?.trim())
+                          .map(([key, value]) => (
+                            <div key={key}>
+                              <p className="text-xs font-medium text-muted-foreground mb-1">
+                                {key}
+                              </p>
+                              <div className="whitespace-pre-wrap text-sm text-foreground">
+                                {value}
+                              </div>
+                            </div>
+                          ))}
                       </div>
-                    ))}
-                </div>
+                    </div>
+                  ))}
+                </div> 
               </div>
             </div>
           )}
