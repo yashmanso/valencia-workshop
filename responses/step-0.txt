@@ -187,3 +187,17 @@ Your Response:
 When I work on a startup acceleration program, I often look for tools that help startups to structure their journey from the current to the desired state. For example, if the goal of the program is to conduct a proof of concept, I need a tool to structure it, e.g. to formulate the hypothesis, measures, KPIs, risks etc. When I look for such a tool I usually rely either on the experience, either my personal or my team's. I take tools that have been developed before and then adapt them to the current needs of the program. I can also consult ChatGPT to develop a template. 
 
 
+
+================================================================================
+RESPONSE FROM: Kristina
+DATE: 2026-03-12T09:49:25.072Z
+WORKSHOP: step 0 - your process (10+5 min)
+================================================================================
+
+Your Response:
+Situation: in need of a tool that can help students compare their innovation to others to see if their claims are sufficient, in comparison with competitors
+What? Try to define the end goal to be more clear in what I'm looking for, start searching
+Where?/Whom? Google, CoPilot, university intranet, SISP
+University Innovation Office, Chalmers Ventures, knowledgeable people in my network, 
+
+
