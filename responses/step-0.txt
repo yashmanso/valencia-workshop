@@ -252,3 +252,18 @@ Your Response:
 I am going to ask colleagues which tool they are using and how they are using it. If the methods seems useful for my situation, I will try to apply. Perhaps I also involve the more experienced colleague. If there is no experience in my team, I will search the internet and look for further instructions.
 
 
+
+================================================================================
+RESPONSE FROM: Irene
+DATE: 2026-03-12T09:54:37.272Z
+WORKSHOP: step 0 - your process (10+5 min)
+================================================================================
+
+Your Response:
+I don't have a clear situation since I'm not an educator, but I would first consider what I need from the tool: is it data analysis, project management, visualisation, etc. So I can narrow the pool of options.
+
+I would then search the internet for those specific tools and ask peers whether they have experience with them, so someone could give me a hand when needed. If my institution is already using one of these, I would rank them higher on my priority list. If nobody has used these tools before, I would go for video tutorials to get a better understanding of the tools and assess their adequacy
+
+
+
+
