@@ -161,3 +161,18 @@ Build it or collate several tool
 
 
 
+
+================================================================================
+RESPONSE FROM: Anmar
+DATE: 2026-03-12T09:49:03.083Z
+WORKSHOP: step 0 - your process (10+5 min)
+================================================================================
+
+Your Response:
+- I started by a general google search to find a tool for the purpose (e.g, Impact assessment / analysis)
+- started reading a brief overview about the potential tools, then explore the shortlisted ones further (the tool's developers have a website where they explain the tools they developed)
+- I like to see "videos" around the tool (I prefer that over reading too much text), because the videos can show you in practice, but also the video can serve as material to be shared with students (either before or during class). So I searched YouTube.
+- I found that the the researcher / developer has a video explaining the tool, and that influenced my decision to pick the "sustainability impact Canvas". Another influencing factor is that their website has readily available templates and instructions to print.
+- I printed out the templates / instructions to hand out to students.
+
+
