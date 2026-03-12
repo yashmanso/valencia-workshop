@@ -81,3 +81,16 @@ Process: Thought to analyze value through LCA, searched for that, went through d
 Would like a search button on the first page. 
 
 
+
+================================================================================
+RESPONSE FROM: Magdalena
+DATE: 2026-03-12T10:49:21.524Z
+WORKSHOP: step 2.1 - scenario 1 (30 min)
+================================================================================
+
+Your Response:
+Social Impact Explanatory Cards- good visualisation and explanatory tool.
+However, there are many tools, and it would be useful to include an AI function. 
+LCA is missing, and in this context wp\ould be a good tool.
+
+
