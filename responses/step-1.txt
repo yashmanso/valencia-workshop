@@ -173,3 +173,14 @@ The method allows for the coachee to find their own solutions and ways to move t
 Within coaching there are lots of tools, like backcasting, perceptual positioning (seeing the issue from different stakeholders) and SMART goalsetting.
 
 
+
+================================================================================
+RESPONSE FROM: Vlad
+DATE: 2026-03-12T10:13:52.972Z
+WORKSHOP: step 1 - your tool choice (10+5 min)
+================================================================================
+
+Your Response:
+The S-curve is a tool I use in teaching technology management to show how technologies grow, improve, and eventually level off. When I bring sustainability into the discussion, it helps students see that existing technologies often reach a point where further improvements are small, while new, more sustainable solutions may still be at an early but promising stage. The S-curve itself is not designed specifically for sustainability, it is a general model of how technologies change over time, so applying it to sustainability requires some interpretation. Still, that is exactly why it is useful for tech entrepreneurs. It helps them see when it no longer makes sense to only optimize the old system and when it might be smart to invest in a new, more sustainable direction. I value it because it makes long term change easier to understand and discuss in a practical way.
+
+
