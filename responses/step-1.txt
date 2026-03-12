@@ -111,3 +111,14 @@ PEST(EL)- STEEPEL- not implementing with students, but showing the usefulness of
 SEVEN PORTER'S FORCES= the same
 
 
+
+================================================================================
+RESPONSE FROM: Tobi R
+DATE: 2026-03-12T10:11:39.333Z
+WORKSHOP: step 1 - your tool choice (10+5 min)
+================================================================================
+
+Your Response:
+In general for unexperienced teams I am using the Value Proposition Canvas. This tool should help the teams to learn about the needs of their potential users/customers before they develop a product that nobody needs. For more experienced teams I am using the Business Modell Canvas to include a broader perspective on the intended business. However, none of these tools includes the sustainability perspective. I would love to involve this as well, but I am still looking for arguments to convince teams about the importance of sustainabilty and that they should consider this aspect in the development of their business model as well.
+
+
