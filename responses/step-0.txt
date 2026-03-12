@@ -176,3 +176,14 @@ Your Response:
 - I printed out the templates / instructions to hand out to students.
 
 
+
+================================================================================
+RESPONSE FROM: Rozaliia
+DATE: 2026-03-12T09:49:19.104Z
+WORKSHOP: step 0 - your process (10+5 min)
+================================================================================
+
+Your Response:
+When I work on a startup acceleration program, I often look for tools that help startups to structure their journey from the current to the desired state. For example, if the goal of the program is to conduct a proof of concept, I need a tool to structure it, e.g. to formulate the hypothesis, measures, KPIs, risks etc. When I look for such a tool I usually rely either on the experience, either my personal or my team's. I take tools that have been developed before and then adapt them to the current needs of the program. I can also consult ChatGPT to develop a template. 
+
+
