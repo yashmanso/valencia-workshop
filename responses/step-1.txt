@@ -122,3 +122,27 @@ Your Response:
 In general for unexperienced teams I am using the Value Proposition Canvas. This tool should help the teams to learn about the needs of their potential users/customers before they develop a product that nobody needs. For more experienced teams I am using the Business Modell Canvas to include a broader perspective on the intended business. However, none of these tools includes the sustainability perspective. I would love to involve this as well, but I am still looking for arguments to convince teams about the importance of sustainabilty and that they should consider this aspect in the development of their business model as well.
 
 
+
+================================================================================
+RESPONSE FROM: Gunn-Berit Neergård
+DATE: 2026-03-12T10:11:59.499Z
+WORKSHOP: step 1 - your tool choice (10+5 min)
+================================================================================
+
+Your Response:
+I have used business model canvas in my courses (too much). I reach for this one because it:
+1) provides an overview of a business model in a very simplistic way.
+2) provides the student with insight into the complexity of establishing something new
+3) it works in all contexts and with all organisational forms.
+
+I value the fact that it shows the need for a fully developed model. If you do not think about money, it is an open void in two of the boxes. I often times need to emphasise to my non-business students that all boxes matters - even the elements of money. They need to be aware that all development costs something, and thus they also need to facilitate income of some kind. This is perhaps their biggest challenge, as many of my students are pro non-profit business models. Thus, they must understand that regardless of profit, money is in the game.
+
+What I dislike about it is:
+- that it is too simplistic, e.g. the original BMC does not bring about the element of sustainability.
+- It does not teach the students how to improve their BM. It is just an open "canvas" in its right term.
+- Some building blocks are hard to understand, e.g. channels.
+
+So I have been considering creating a new tool that could fit my need, as I see that BMC is ok, but not perfect.
+
+
+
