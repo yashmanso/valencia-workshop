@@ -110,3 +110,16 @@ The tools to match these learning objectives need to offer a structured process 
 I then turned to collections and immediately found what I needed in the DIY Toolkit collection. There is a section "I want to collect input from others". This section offers several tools for shadowring and interviewing stakeholders to understand their needs, which fits the learning objectives. 
 
 
+
+================================================================================
+RESPONSE FROM: Vlad
+DATE: 2026-03-13T09:55:56.455Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+In our Technology Management module at TU Berlin, sustainable innovation is not a standalone learning objective but one important dimension that students must consider when analyzing a technology. One key objective is that students should be able to systematically analyze a technology from strategic, economic, and sustainability perspectives. When deconstructing this objective, it becomes clear that learners need to identify impacts, define system boundaries, map stakeholders, and assess tradeoffs. The Sustainability Impact Canvas is a suitable tool because it structures impact analysis across environmental, social, and economic dimensions. To adapt it to their specific technology context, students need guidance on selecting relevant impact criteria and examples of rigorous assessments.
+
+Another objective is that students should be able to design and evaluate business models for emerging technologies. This requires translating technical features into value propositions and aligning them with market and societal needs. The Sustainable Business Model Canvas supports this process by integrating sustainability into business model design. However, students must first understand core business model concepts and the strategic implications of sustainability choices so that the tool supports critical thinking rather than template completion.
+
+
