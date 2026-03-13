@@ -28,3 +28,36 @@ While looking through the tools, and re-reading the LOs, I discovered possible u
 
 
 
+
+================================================================================
+RESPONSE FROM: Sanna Ilonen
+DATE: 2026-03-13T09:50:45.701Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+YR222013 YR1 Entrepreneurial Opportunities, 6 ECTs https://opas.peppi.utu.fi/fi/opintojakso/YR222013/1617?period=2024-2027
+
+Learning objectives (focus on the two latter 3&4):
+1.	will understand what a business opportunity is and how it differs from an idea.
+2.	are familiar with the latest theoretical discussion on opportunities
+3.	will know how to develop opportunities and start acting upon them
+4.	are able to evaluate feasibility of opportunities.
+
+Overarching objective of our entrepreneurship programme is to embed sustainability/regenerative entrepreneurship to our courses -> thus, the startups students consult are selected keeping this in mind
+
+During the course students do consulting task for the startups. Their task is to understand what are/is the burning problem of the startup and help them to solve it (different perspective to problem-solution fit). 
+
+LO: Will know how to develop opportunities and start acting upon them
+-	understand the problem behind the business idea, understand the solution -> understand the fit/unfit and helping to startup mind sustainability even more
+LO: are able to evaluate feasibility of opportunities
+-	analysing the feasibility from the sustainable perspective
+
+I do not want to use any “canvas”
+Possible tool:
+Biomimicry Design Spiral, the students could evaluate the business opportunity based on “Define, Biologize, Discover, Abstract, Emulate, and Evaluate” model
+
+As an outcome my students would understand the business opportunity (problem, solution fit) and help the startup to develop their operations into more sustainable direction.
+
+
+
