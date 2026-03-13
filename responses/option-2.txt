@@ -232,3 +232,18 @@ https://academic.oup.com/pnasnexus/article/2/10/pgad321/7286201
 
 
 
+
+================================================================================
+RESPONSE FROM: Tobi R
+DATE: 2026-03-13T11:43:21.666Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+Value Proposition Canvas; -> Intention to better understand the customer job and actual needs
+Different context: Consider environment/nature as a customer, Identify, what would be a good service for nature?
+At least the customer element could be transferred into this new setup
+
+Reflection: It might be difficult to develop a specific product/service just for nature. So this part has to be connected to the original product or service idea of the start-up. This means, an easy 1:1 transfer of the VPC concept on nature is not possible but nature should be included as an additional dimension. 
+
+
