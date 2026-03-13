@@ -9,3 +9,22 @@ Your Response:
 test
 
 
+
+================================================================================
+RESPONSE FROM: Annie Aggarwal
+DATE: 2026-03-13T09:42:54.029Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+MSc. elective course: 'Joint Interdisciplinary Project'. 
+Learning Objective 1 - Scientific and intellectual development: The capacity to evaluate the ethical, scientific and societal consequences of the proposed innovation through rigorous analysis.
+Learning Objective 2 -  Research and design capabilities: Demonstrate the ability to create reasonable and relevant output, in accordance with the academic standards of well conducted research, design, modelling and technical approaches for the problem addressed within JIP.
+
+Possible tools that can be used -  LO1 : Responsible Tech playbook, Impact compass (to assess project outcomes and impact); LO2 : UCD Impact Planning, UCD Impact Journey (to plan research and design process)
+
+Process: I first looked at all the learning objectives, out of which I first selected only one, that I believed would lead to a corresponding tool based on prior experience with the Sustainability Atlas. I arrived at the tool by searching for the keyword 'ethics' and 'societal' in the filters. I also tried other filters like scientific, analysis, but these did not generate relevant tools.
+While looking through the tools, and re-reading the LOs, I discovered possible use of a tool, for another LO as well. I eventually started browsing through the whole list of tools, reading through whichever seemed relevant. Various tools may be adopted by students, depending on the students' project focus on social or sustainability aspects.
+
+
+
