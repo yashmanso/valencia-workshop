@@ -98,3 +98,27 @@ I would first use the tool as is with the three steps and then I would see how t
 I would use the acivity system perspective of business models for that because it allows for more details. Each element o the impact wheel would be translated into an "activity" and tried to integrate in the activity system of the business model. Where are direct links between activities of the SDGs and the business model. If there are no links, this could help reflect if this impact is really created. If there are links we could further explore how to integrate the SDG activities more clearly in the activity system of the business model 
 
 
+
+================================================================================
+RESPONSE FROM: Catarina Östlund
+DATE: 2026-03-13T11:06:54.433Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+Sustainability SWOT analysis – The Frugal SWOT analysis
+The original is based on a traditional swot but with the sustainability fokus/challenges and the addition of prioritizing and acting. I can make use of this for the frugal definition and the student’s statements of frugal design and their design work. And of course for their understanding of the concept. The outcomes of prioritizing and acting is a good ground for my case but the input needs to be changed.
+
+Instead of Challenges – Frugal design and its most common characteristics from research sources (8 characteristics)
+Trends – a bit tricky but could be a good task for the students to map some trends in frugal design (product trends and areas), connect to one of the learning outcomes.
+
+S, W, O and T should concern the concept of Frugal design (for example go through the FD characteristics)
+
+Prioritize – students decide focus on a number of characteristics and describe why.
+
+Act – comes down to the prerequisites and approach for the design and maybe first sketches.
+
+Will try this and probably encounter a number of difficulties and gaps. Two steps forward and one backward process:)
+
+
+
