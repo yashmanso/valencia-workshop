@@ -94,3 +94,19 @@ Your Response:
 The links to the 'Responsible Tech Playbook' are not working.
 
 
+
+================================================================================
+RESPONSE FROM: Annie+Rozaliia
+DATE: 2026-03-13T09:55:34.133Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+I am involved in developing a course on Needs-led innovation in healthcare. Here are 2 of the learning objectives: 1) Analyse lived-experience insights to identify unmet needs, constraints, and unintended consequences relevant to product development, research design, or innovation pathways.
+2) Analyse stakeholder roles, power dynamics, and decision-making responsibilities when collaborating with patients, the public, and multidisciplinary teams in industry–research settings.
+
+The tools to match these learning objectives need to offer a structured process of client/stakeholder engagement and reflection. I started searching the right tool by first filtering them by stage "design", which didn't limit results (24/28 tools were shown). Then I filtered by the word "User", expecting to find tools for user-centered designed. I found "Use2Use Design Tools" but they focus on circular desighes and would need to be adapted to the context of the course. The search for "Needs" didn't produce results. And the search for "stakeholders" produced results which facilitate value mapping and BM model design when the needs of the stakehodlers are already well understood. So these tools don't fit the learning objectives either. In the end I screened all 28 available tools and didn't find a perfect match. 
+
+I then turned to collections and immediately found what I needed in the DIY Toolkit collection. There is a section "I want to collect input from others". This section offers several tools for shadowring and interviewing stakeholders to understand their needs, which fits the learning objectives. 
+
+
