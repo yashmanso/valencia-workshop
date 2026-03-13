@@ -122,3 +122,29 @@ Will try this and probably encounter a number of difficulties and gaps. Two step
 
 
 
+
+================================================================================
+RESPONSE FROM: Sanna Ilonen
+DATE: 2026-03-13T11:11:32.318Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+Corporate Entrepreneurship course – established corporations, intrapreneurs, innovation units 
+
+This task is challenging for me as I use tools very rarely (students come up with the tools they use). I do not want to use any “canvas” as a tool, and I got interested in this Biomimicry Design Spiral -> although this is targeted particularly for startups, I started to wonder how intrapreneurs/established organization/corporations could use it as they are also seeking for renewal.
+
+The tool takes several steps: “Define, Biologize, Discover, Abstract, Emulate, and Evaluate”
+I think that the tool would require one testing round with intrapreneurs to see, what kind of adjustments it would need.
+
+Some ideas how the process might be different in established organisations:
+
+1.	Define: More stakeholders, constraints, and strategic alignment (e.g. minding the KPIs)
+2.	Biologize: Translate challenges within organisational realities (e.g. not as quick to adapt)
+3.	Discover:  Broader research coordination and time allocation (e.g. more complex approval cycles)
+4.	Abstract: Translate biology into design and into corporate feasibility language (e.g. minding the existing organizational systems, language)
+5.	Emulate: Needs integration with existing processes, standards, and platforms (e.g. minding the process cycles?)
+
+However, these are only preliminary ideas and it should be tested to get an idea what is needed for contextualisation.
+
+
