@@ -123,3 +123,24 @@ In our Technology Management module at TU Berlin, sustainable innovation is not 
 Another objective is that students should be able to design and evaluate business models for emerging technologies. This requires translating technical features into value propositions and aligning them with market and societal needs. The Sustainable Business Model Canvas supports this process by integrating sustainability into business model design. However, students must first understand core business model concepts and the strategic implications of sustainability choices so that the tool supports critical thinking rather than template completion.
 
 
+
+================================================================================
+RESPONSE FROM: Hannah
+DATE: 2026-03-13T09:58:14.124Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+Course: Business Model Innovation
+Objectives: (1) Design a business model (2) Test a business model
+
+Tools: 
+(1) CircularStart: I liked this one as a start to think about sustainability and a good extension to the business model canvas
+(2) Impact Gap Analysis: Cool to reflect on possible challenges and additional impact that could be created -> in ideation stage
+
+I liked the tools for reflection and also to give another perspective on successful design. I usually focus more on achieving competitive advantage
+
+I did not find a lot for testing business ideas which would be cool because it is more difficult to test for sustainability (e.g. because of social acceptance etc.) 
+
+
+
