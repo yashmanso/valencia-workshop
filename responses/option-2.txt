@@ -78,3 +78,23 @@ Your Response:
 tesdt 3
 
 
+
+================================================================================
+RESPONSE FROM: Hannah
+DATE: 2026-03-13T10:51:02.973Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+Really interesting task! Gave me some new ideas :) thx. 
+
+I chose the social impact wheel
+
+it is designed as a simple evaluation tool
+
+I would use it in the activity system of a business model to explore how you could use the SDGs for creating impact in the business model of a firm and maybe create synergies and positive feedback loops that create impact for society but also the organization. 
+
+I would first use the tool as is with the three steps and then I would see how the impact fits within the business model. 
+I would use the acivity system perspective of business models for that because it allows for more details. Each element o the impact wheel would be translated into an "activity" and tried to integrate in the activity system of the business model. Where are direct links between activities of the SDGs and the business model. If there are no links, this could help reflect if this impact is really created. If there are links we could further explore how to integrate the SDG activities more clearly in the activity system of the business model 
+
+
