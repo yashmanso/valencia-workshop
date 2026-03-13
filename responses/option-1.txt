@@ -224,3 +224,25 @@ If we aim for the initiation: A SWOT-analysis could be helpful. I explored the v
 
 
 
+
+================================================================================
+RESPONSE FROM: Catarina Östlund
+DATE: 2026-03-13T10:18:38.330Z
+WORKSHOP: choose/link/curate sei tools <-> learning objectives
+================================================================================
+
+Your Response:
+I think I have too general learning objectives and need to work on them to better describe the outcomes. I have chosen 2 that are both similar and different:
+•	critically identify problem areas adapting to frugal solutions
+•	Explain the concept of frugal design/engineering and demonstrate how it can be applied in ideation and prototyping processes
+
+For both a kind of tool or method for identifying and defining the concept of Frugal design is needed. In the first the students need to formulate an own definition (based on existing ones) of frugal design to be able to later identify possible areas for frugal solutions.
+
+The second has the same base as above but to should be used in an ideation- and practical/experimental process.
+
+A tool that encourages the students to make their own definitions and statements for use both in the more theoretical part (1) and in the practical part (2)
+
+For both I am considering Biomimicards and The sustainability swot analysis but adapted to the frugal concept and the student's use of it. 
+
+
+
