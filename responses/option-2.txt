@@ -185,3 +185,15 @@ It will definitely be necessary to introduce the context well  - students are no
 
 
 
+
+================================================================================
+RESPONSE FROM: Gunn-Berit Neergård
+DATE: 2026-03-13T11:15:12.099Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+I chose the sustainability SWOT. I have not used the SWOT in many years, but it is very intuitive, and I remember it well. I understand the choices made to add the new components to the original SWOT. I see the generic components of process (3 different stages), the SWOT in the middle.
+I have tried to adjust it to my context by adding a more generic entrance to the challenge, and to add context (local, national, global) in stead of separating between challenge/trend. I think context can be more important than trends in todays very rapidly shifting society. I have kept the rest, but added a "personal SWOT" and a personal process under the original SWOT-process, making this a tool to explore yourself as an intrapreneur + the new value creation, and how you as a team (individual + project) work together. A bit complex to explain, but it works well on my sketch.
+
+
