@@ -166,3 +166,22 @@ I think using the tool as a framework for further external impact evaluation is 
 
 
 
+
+================================================================================
+RESPONSE FROM: Magdalena
+DATE: 2026-03-13T11:15:02.663Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+I frequently use the LEAN STARTUP CANVAS to work with students on their business ideas. I encourage them to propose "sustainable" business ideas, without placing too much emphasis on calculating the actual impact (e.g., not using LCA). The designers meant it as a tool for information technology students and app builders, providing them with a framework for the engineering entrepreneurial process. I would like to change the context, asking students to build a social enterprise (association, foundation, NGO, in general, a non-profit organisation), rather than a for-profit venture. I will comment on actual and adapted to my new context building blocks in the following lines:
+PROBLEM: In the current version of a business niche, something is missing on the market, something which can be commercialised- in my new version: a social problem to solve (lack of education, lack of some specific service, social need).
+SOLUTION: product/service you can easily commercialize. In my new context: product/service very useful, affordable, designed with the use of the DESIGN THINKING method- 100% corresponding to the needs of users (not necessarily customers).
+UNIQUE VALUE PROPOSITION: the focus on the way of satisfying users, a specific segment of them, in contrast to viable, fully commercial propositions.
+CHANNELS: stress on social channels instead of commercial, paid channels. Creating real local communities, networks, word of mouth, rather than paid channels.
+SEGMENTS: User segments instead of customer segments- taking this different perspective on "customers."
+COST/REVENUE STREAMS: We still need a minimum level of financial sustainability, so there is a strong focus on bootstrapping, with revenue reinvested in product/service improvements, minimal full-time employment, and voluntary work.
+It will definitely be necessary to introduce the context well  - students are not naturally addressing social problems/needs, and even if they do, they tend to rely on public support. That requires a change in perspectives- not easy in the case of business students with little social orientation and willingness to make money rather than invest their energy and time into a more social venture with limited profitability.
+
+
+
