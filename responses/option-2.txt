@@ -197,3 +197,38 @@ I chose the sustainability SWOT. I have not used the SWOT in many years, but it 
 I have tried to adjust it to my context by adding a more generic entrance to the challenge, and to add context (local, national, global) in stead of separating between challenge/trend. I think context can be more important than trends in todays very rapidly shifting society. I have kept the rest, but added a "personal SWOT" and a personal process under the original SWOT-process, making this a tool to explore yourself as an intrapreneur + the new value creation, and how you as a team (individual + project) work together. A bit complex to explain, but it works well on my sketch.
 
 
+
+================================================================================
+RESPONSE FROM: Vlad
+DATE: 2026-03-13T11:37:43.971Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+Forking the S-Curve toward sustainability (for example, sustainable/green technology s-curve)
+
+1. The S-Curve is an analytical model that shows how performance improves over time in a pattern that starts slowly, then grows very fast, and finally levels off when limits are reached. It is usually drawn as an S shaped curve and often calculated with a logistic growth function where the rate of improvement increases until a turning point and then gradually slows down. The purpose of the tool is to help decision makers (e.g. tech entrepreneurs, investors, various stakeholders) understand stages of development, compare alternatives, and estimate when a system might reach maturity.
+
+2. Why it is not tailored to sustainability and why it should be? Originally the S-Curve was designed mainly for technology performance and market growth, not for sustainability analysis for entrepreneurs. It focuses on technical output but not really on environmental or social impact. Still it can be very useful for sustainability, because sustainable innovations also develop over time, move from early experiments to wider adoption and eventually face limits (e.g. ecological, regulatory, etc.). So adapting it totally makes sense.
+
+3. The main components of the S-Curve are a time axis, a measurable performance variable, a phase of slow early progress, a phase of rapid acceleration, an inflection point where growth is fastest, and a maturity phase where improvement slows down. It also allows that new curves appear and replace older ones when a new innovation emerges.
+
+4. To make it useful for sustainability analysis, the meaning of performance has to change and instead of only measuring productivity or profit, it could measure resource efficiency, circular use of materials, etc. The upper limit of the curve should represent ecological boundaries or social constraints rather than only technical limits. In this way a sustainable S-Curve can help entrepreneurs see when a green technology innovation is still in an early niche stage and when it is ready to scale and create real systemic impact.
+
+5. Translating the S-Curve into a sustainability context requires careful thinking about its original assumptions and about what exactly is being measured. It is not just copying the shape of the curve but redefining its variables and limits so that they reflect environmental and social realities. The process includes mapping it onto sustainability challenges, testing it with real examples and adjusting it if the model feels too simplified or reductive in practice.
+
+Research papers I found on the topic:
+
+1. Technology S-curves in renewable energy alternatives: Analysis and implications for industry and government 
+https://www.sciencedirect.com/science/article/pii/S0301421509000111?via%3Dihub
+
+2. Transforming the s-shape: Identifying and explaining turning points in market diffusion curves of low-carbon technologies in Austria
+https://www.sciencedirect.com/science/article/pii/S0048733321001682?via%3Dihub
+
+3. Probabilistic projections of granular energy technology diffusion at subnational level
+https://academic.oup.com/pnasnexus/article/2/10/pgad321/7286201
+
+
+
+
+
