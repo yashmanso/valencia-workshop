@@ -148,3 +148,21 @@ Some ideas how the process might be different in established organisations:
 However, these are only preliminary ideas and it should be tested to get an idea what is needed for contextualisation.
 
 
+
+================================================================================
+RESPONSE FROM: Anmar and Zoe
+DATE: 2026-03-13T11:14:12.099Z
+WORKSHOP: what is required of a user when forking a tool/model/method?
+================================================================================
+
+Your Response:
+I think it would be useful on the Sustainability Atlas to have perhaps an area within each tool where users can demonstrate / share how they have adapted the tool for different contexts. 
+
+Some of the tools have 'how to' links and this is useful content.
+
+I was particularly drawn to the Impact Compass. It has a really useful explanatory guide with some highly relevant case studies, however the scoring is fairly complex. I would therefore simplify it for my students and have them come up with more qualitative rather than quantitative responses. 
+
+I think using the tool as a framework for further external impact evaluation is useful, so I will likely overlay it with another tool, or I might split the class up to work on the different tools first and then to work in groups looking for the synergies and how the aspects of the tools can fit together. I think this will make for a useful 2 hour seminar activity designed around the concept of 'impact'.
+
+
+
